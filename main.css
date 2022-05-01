@@ -1,0 +1,332 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    
+}
+@font-face 
+{
+    font-family: folio;
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+@font-face 
+{
+    font-family: text-c;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+@media(max-width:992px)
+{
+    .text
+    {
+        position: absolute;
+        top: 20px;
+        left: 150px;
+    }
+    .-text-
+    {
+        display: none;
+    }
+    .wow
+    {
+        flex-wrap: wrap;
+    }
+    .border-card
+    {
+        margin: auto;
+        padding: 200px 160px;
+        
+    }
+    .photo 
+    {
+        margin-top: 75px;
+        margin-left: 176px;
+        width: 320px;
+    }
+    .text-c 
+    {
+        position: absolute;
+        top: 450px;
+        left: 120px;
+    }
+    .about
+    {
+        padding-bottom: 1000px;
+    }
+}
+
+.home
+{
+    width: 100vw;
+    height: 695px;
+    background-image: url(img/home-bg.jpg);
+    background-size: cover;
+    
+}
+.text
+{
+    padding-top: 21%;
+}
+.box
+{
+    width: 100vw;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 0px 30px 0px #444444;
+}
+.h3
+{
+    font-family: folio;
+    margin: auto 140px;
+}
+.-text-
+{
+    margin: auto 70px;
+}
+.-b-
+{
+    color: grey;
+    padding-right: 50px;
+    font-weight: 500;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.about
+{
+    height: 120vh;
+    position: relative;
+    background-color: #e6e6ff;
+    /* opacity: 0.1; */
+    
+}
+/* .on-about
+{
+    width: 100vw;
+    height: 120vw;
+    background-color: blue;
+    opacity: 0.1;
+
+} */
+.-none- a
+{
+    text-decoration: none;
+}
+.box h3
+{
+    cursor: pointer;
+    
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+.-b-:hover
+{
+    color: #7a5c3ed3;
+}
+.border-card
+{
+    margin-top: 125px;
+    width: 348px;
+    height: 400px;
+    border: solid 20px   #7a5c3ed3;
+}
+.photo
+{
+    position: absolute;
+    top: 70px;
+    left: 160px;
+
+
+}
+.text-c
+{
+    margin-top: 125px;
+    margin-left: 140px;
+    font-size: 26px;
+}
+.text-c b
+{
+    font-family: text-c;
+    font-weight: 500;
+    color: gray;
+}
+.text-c p
+{
+    padding: 20px 0px;
+    font-size: 17px;
+    color: gray;
+}
+::selection{
+    color: white;
+    background-color: #7a5c3ed3;
+}
+.small-box
+{
+    width: 262.5px;
+    height: 129px;
+    /* background-color: yellow; */
+}
+.small-box p
+{
+    font-weight: 500;
+}
+.small-box .fab, .fas, .far
+{
+    color: #7a5c3ed3;
+}
+.mini-card
+{
+    margin-top: 80px;
+}
+.circle-boss
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.circle
+{
+    width: 12px;
+    height: 12px;
+    background-color:#7a5c3ed3;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 20px;
+}
+.circle-gray
+{
+    background-color: lightgray;
+}
+.my-p-text
+{
+    padding-top: 80px;
+}
+.text-my-hov .z
+{
+    color: #7a5c3ed3;
+}
+.text-my-hov
+{
+    color: gray;
+    margin-top: 45px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.text-my-hov b:hover
+{
+    color: #7a5c3ed3;
+}
+.text-my-hov b
+{
+    margin: 15px;
+    transition-duration: 1s;
+}
+.card-my
+{
+    width: 30%;
+    margin: 15px;
+}
+.card-my img
+{
+    width: 100%;
+}
+.portfolio
+{
+    margin-bottom: 60px;
+
+}
+.box-zx
+{
+    height: 94vh;
+    position: relative;
+    background-color: #e6e6ff;
+}
+.-text--
+{
+    padding-top: 90px;
+}
+.card-x
+{
+    width: 40%;
+    margin: 15px;
+}
+.card-x img
+{
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.money
+{
+    color: black;
+    transition-duration: 1s;
+    font-size: 18px;
+}
+.money:hover
+{
+    color: #7a5c3ed3;
+}
+.end
+{
+    height: 90vh;
+}
+.texts
+{
+    margin-top: 90px;
+}
+.form
+{
+    position: relative;
+    margin-left: 320px;
+    margin-top: 80px;
+}
+.texts p
+{
+    margin: 5px 0px;
+    color: gray;
+}
+textarea
+{
+    margin-top: 20px;
+}
+input
+{
+    margin-top: 20px;
+}
+.input1
+{
+    margin-right:35px;
+}
+.-btn-
+{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    margin-top: 30px;
+    padding: 10px 220px;
+}
+.-btn-:hover
+{
+    color: white;
+}
+.h10
+{
+    width: 250px;
+}
+.the-end
+{
+    
+    height: 20vw;
+    background-color: #e6e6ff;
+}
+.iconp .fab:hover
+{
+    
+    color: #7a5c3ed3;
+}
